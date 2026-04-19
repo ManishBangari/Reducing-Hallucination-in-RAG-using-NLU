@@ -1,0 +1,40 @@
+{
+  "baseline": {
+    "Intent EM (up)": 92.83,
+    "Bag of Slots (up)": 79.56,
+    "Hallucinated Slot Types (down)": 0.7,
+    "Hallucinated Intents (down)": 0.67
+  },
+  "rag": {
+    "Intent EM (up)": 74.8,
+    "Bag of Slots (up)": 35.41,
+    "Hallucinated Slot Types (down)": 0.0,
+    "Hallucinated Intents (down)": 0.0
+  },
+  "k_ablation": {
+    "1": {
+      "Intent EM (up)": 57.45,
+      "Bag of Slots (up)": 12.68,
+      "Hallucinated Slot Types (down)": 14.73,
+      "Hallucinated Intents (down)": 0.0
+    },
+    "3": {
+      "Intent EM (up)": 73.35,
+      "Bag of Slots (up)": 29.14,
+      "Hallucinated Slot Types (down)": 0.22,
+      "Hallucinated Intents (down)": 0.0
+    },
+    "5": {
+      "Intent EM (up)": 74.8,
+      "Bag of Slots (up)": 34.51,
+      "Hallucinated Slot Types (down)": 0.0,
+      "Hallucinated Intents (down)": 0.0
+    },
+    "10": {
+      "Intent EM (up)": 72.79,
+      "Bag of Slots (up)": 35.66,
+      "Hallucinated Slot Types (down)": 0.0,
+      "Hallucinated Intents (down)": 0.0
+    }
+  }
+}
